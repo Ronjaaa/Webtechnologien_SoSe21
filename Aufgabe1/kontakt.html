@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+      <a href="https://ronjaaa.github.io/Webtechnologien_SoSe21/Aufgabe1/index.html"><i> About </i></a>
+      |
+      <a href="https://ronjaaa.github.io/Webtechnologien_SoSe21/Aufgabe1/kontakt.html" id="istSeite"> Kontakt</a>
+  </nav>
+
+  <div class="ueberschrift">
+      <h1>Ronja Slabon</h1>
+  </div>
+
+<body>
+  <h1><u>Kontaktformular</u></h1>
+
+  <p>Hier können Sie ihre persönlichen Daten eingeben. Ich werde mich dann mit ihnen in Verbindung setzten.</p>
+  <br>
+
+  <main class="kontakt">
+    <label for="anrede">Anrede</label>
+    <br>
+    <select id="anrede" name="anredelist" form="anredeform">
+      <option value="Frau">Frau</option>
+      <option value="Herr">Herr</option>
+    </select>
+
+      <p>Name, Vorname:</p>
+      <input name="vorname" type="text" placeholder="Vorname">
+      <input type="text" name="nachname" placeholder="Nachname">
+      <br>
+      <p>Geburtsdatum:</p>
+      <input type="date" name="tag" placeholder="TT">
+      <input type="date" name="monat" placeholder="MM">
+      <input type="date" name="jahr" placeholder="JJJJ">
+      <br>
+      <p>Emailadresse:</p>
+      <input type="text" name="email" placeholder="E-Mail">
+      <br>
+      <p>Ihr Anliegen:</p>
+      <textarea id="nachricht" name="nachricht" cols="40" rows="5" placeholder="Nachricht"></textarea>
+      <br>
+      <dif id="datenschutz">
+          <p>Mit absenden der Nachricht bestätige ich den <a href="datenschutz.html"> Datenschutz</a>.</p>
+      </dif>
+      <input type="submit" value="Send!" />
+      <br>
+      <br>
+  </main>
+  <br>
+
+  <p>Hier geht es zu meiner <a href="https://ronjaaa.github.io/Webtechnologien_SoSe21/Aufgabe1/index.html"><i>About me</i></a> Seite.</p>
+
+  <hr>
+  <footer>
+      <p>Footer: ronja.kerstin.slabon@hs-furtwangen.de</p>
+  </footer>
+</body>
+</html>
