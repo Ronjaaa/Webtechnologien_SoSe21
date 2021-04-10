@@ -61,6 +61,10 @@ nav a:hover {
     color: violet;
 }
 
+.index img{
+    width: 800px;
+}
+
 /*Contact*/
 .kontakt{
     margin-left: auto;
