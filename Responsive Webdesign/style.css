@@ -1,0 +1,383 @@
+/*Hintergrund*/
+body {
+    background-color: #F2F2F2;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+/*Navigationsleiste Main*/
+nav[role="main"] {
+    position: relative;
+    background-color: black; opacity:0.8;
+    overflow: hidden;
+    height: 50px;
+    text-indent:100px;
+}
+nav[role="main"] a {
+    color:white;
+    float: left;
+    text-align: center;
+    padding: 15px 0px;
+    text-decoration: none;
+    font-size: 15px;
+}
+nav[role="main"] a:hover {
+    color: gray;
+    font-weight: bolder;
+}
+nav[role="main"] img{
+    width: 50px;
+    padding: 11px 140px;
+    float: left;
+}
+
+/*Navigationsleiste Sub*/
+nav[role="sub"] {
+    position: sticky;
+    background-color: white; opacity:0.8;
+    overflow: hidden;
+    height: 50px;
+    text-indent:150px;
+}
+/* Right-aligned section inside the top navigation */
+nav[role="sub"] a {
+    float: left;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.button1 {
+    /*float: right;*/
+    background-color: #0071e3;
+    border: none;
+    color: white;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 25px;
+  }
+nav[role="sub"] a:hover {
+    color: gray;
+    font-weight: bolder;
+}
+#istSeite{
+    color: gray;
+}
+
+/*Button
+.button {
+    background-color: #0071e3;
+    border: none;
+    color: white;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 25px;
+}*/
+
+/*Intro*/
+.intro {
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    position: relative;
+    overflow: hidden;
+}
+.intro h1 {
+   font-size: 120px;
+   text-align: center;
+    padding-top: 20vh;
+}
+#gold {
+    position: absolute;
+    height: 700px;
+    top: 50%;
+    left: 10%;
+}
+
+/*about*/
+.about {
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 10%;
+}
+.about h1 {
+    font-size: 64px;
+}
+.about p {
+    font-size: 32px;
+}
+#price {
+    color: #707070;
+}
+.about button {
+    font-size: 20px;
+    border: none;
+    color: #707070;
+    background-color: transparent;
+}
+
+/*Entscheidung*/
+#h2-entscheidung {
+    text-align: center;
+    font-size: 62px;
+}
+.button4 {
+    font-size: 15px;
+    border: none;
+    color: #0071e3;
+    background-color: transparent;
+    padding-left: 40%;
+}
+.entscheidung {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.entscheidung>div {
+    border-style: none;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+    line-height: 150%;
+    padding-bottom: 0%;
+
+}
+.new {
+    color: orange;
+}
+.b12bild {
+    height: 400px;
+}
+.minibild {
+    height: 300px;
+    padding-top: 17%;
+}
+.color1 {
+    width: 130px;
+    text-align: center;
+}
+.color2 {
+    width: 130px;
+}
+
+/*Video gold*/
+.goldanimation{
+    background-color: #fcf6f0;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    position: relative;
+    overflow: hidden;
+}
+.goldanimation h2 {
+    font-size: 64px;
+    text-align: center;
+    padding-top: 50px;
+}
+.goldanimation h1{
+    color: orange;
+    font-size: 64px;
+    text-indent: 75%;
+}
+.goldanimation p{
+    color: black;
+    font-size: 32px;
+    text-indent: 75%;
+    line-height: 0%;
+}
+.gold-lipstick {
+    position: absolute;
+    height: 700px;
+    top: 50%;
+    left: 20%;
+}
+
+/*Video blue*/
+.blueanmimation{
+    background-color: #AECBD9;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    position: relative;
+    overflow: hidden;
+}
+.blueanmimation h1{
+    color: #0153A5;
+    font-size: 64px;
+    text-align: center;
+}
+.blueanmimation img {
+    position:relative;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*Video grün*/
+.greenanimation{
+    background-color: #e2f4de;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    position: relative;
+    overflow: hidden;
+}
+.greenanimation h1{
+    color: green;
+    font-size: 64px;
+    padding-left: 100px;
+}
+.greenanimation p{
+    color: green;
+    font-size: 32px;
+    padding-left: 100px;
+}
+.greenanimation button {
+    border: 2px solid #4CAF50;
+    color: green;
+    background-color: transparent;
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 5px 20px;
+    margin-left: 100px;
+}
+.green-lipstick {
+    position: absolute;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+}
+#green-line {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 100px;
+    margin-right: 550px;
+    border-width: 1px;
+    color: green;
+    background-color:green;
+    height: 2px;
+}
+
+/*Video rot*/
+.redanimation{
+    background-color: #F29D9C;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    position: relative;
+    overflow: hidden;
+}
+.redanimation img {
+    float: inline-start;
+    padding-left: 40%;
+    width: 200px;
+}
+#rot-rechts {
+    color: red;
+    font-size: 64px;
+    padding-left: 700px;
+    text-align: left;
+}
+#rot-links {
+    color: red;
+    font-size: 64px;
+    padding-right: 800px;
+    text-align: right;
+}
+
+/*Video H2O*/
+.H2O{
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    position: relative;
+    overflow: hidden;
+}
+.H2O img {
+    position: absolute;
+    height: 700px;
+    top: 50%;
+    left: 20%;
+}
+#h2o-line {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 100px;
+    margin-right: 750px;
+    border-width: 1px;
+    color: #707070;
+    background-color:#707070;
+    height: 2px;
+}
+#h2o-oben {
+    color: #707070;
+    font-size: 64px;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+#h2o-unten {
+    color: #707070;
+    font-size: 32px;
+    padding-left: 100px;
+}
+
+
+/*Endbereich*/
+.ende {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);}
+.ende>div {
+    border-style: none;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+    line-height: 150%;
+}
+.ende>div>h1{
+    font-size: 18px;
+}
+.ende>div>button {
+    font-size: 15px;
+    border: none;
+    color: #0071e3;
+    background-color: transparent;
+}
+.ende>div>img {
+    border: 2px;
+    border-style: none;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+section{
+    height: 100vh;
+    color: black;
+}
+section h1{
+    text-align: center;
+    font-size: 80px;
+}
+section .button1 {
+margin-left: 49%;
+font-size: 20px;
+}
+

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../GIS_SoSe2020"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Webtechnologien_SoSe21"
+	}
+}
