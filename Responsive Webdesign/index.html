@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lipstick 12</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-    
-    <!--Navigationsleiste Schwarz-->
+
+    <!--Navigationsleiste Schwarz
     <nav role="main">
         <img src="logo.png" alt="Logo" id="foto1">
         <a href="https://ronjaaa.github.io/GIS_SoSe2020/Aufgabe03/about_me.html">Mac</a>
@@ -24,21 +26,44 @@
         <img src="shoppingbag.png" alt="Shopping" id="foto2">
 
     </nav>
+    -->
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <img src="logo.png" alt="Logo" id="foto1">
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="#news">Mac</a>
+            <a href="#contact">iPad</a>
+            <a href="#about">Lipstick</a>
+            <a href="#about">Watch</a>
+            <a href="#about">TV</a>
+            <a href="#about">Music</a>
+            <a href="#about">Support</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <div class="menu-btn_burger"></div>
+        </a>
+
+
+    </div>
 
     <!--Navigationsleiste Weiß-->
     <nav role="sub">
-        <a>Lipstick 12</a> 
+        <a>Lipstick 12</a>
         <button class="button1">Kaufen</button>
     </nav>
 
     <!--Intro-->
     <div class="intro">
         <h1>Lipstick 12</h1>
-        <img class="purple" src="purple.png" alt="purple"/>
-        <img class="blue" src="blue.png" alt="blue"/>
-        <img class="gold" src="gold.png" alt="gold"/>
-        <img class="green" src="green.png" alt="green"/>
-        <img class="red" src="red.png" alt="red"/>
+        <img class="purple" src="purple.png" alt="purple" />
+        <img class="blue" src="blue.png" alt="blue" />
+        <img class="gold" src="gold.png" alt="gold" />
+        <img class="green" src="green.png" alt="green" />
+        <img class="red" src="red.png" alt="red" />
     </div>
 
 
@@ -49,33 +74,33 @@
             Case. Sustainable. New Formular with four times<br>
             brighter colours. Lipstick 12 has it all - in two<br>
             perfect sizes.</p>
-            <p id="price">From $29.01/mo. for 24 mo. or $699</p>
-            <button class="button3">Film ansehen ></button>
+        <p id="price">From $29.01/mo. for 24 mo. or $699</p>
+        <button class="button3">Film ansehen ></button>
 
     </div>
     <br>
 
     <!--Welcher Lipstick?-->
     <h2 id="h2-entscheidung">Which Lipstick is right for you?</h2>
-     <button class="button4">Compare all Lipstiks models ></button>
+    <button class="button4">Compare all Lipstiks models ></button>
     <div class="entscheidung">
-        
+
         <div id="12">
-            <img class="b12bild" src="basis.png" alt="b12bild"/>
+            <img class="b12bild" src="basis.png" alt="b12bild" />
             <p class="new">New</p>
-                <h1>Lipstick 12</h1>
-                <p>From $699</p>
-                <img class="color1" src="colors.png" alt="color1"/>
-                <br>
-                <button class="button1">Kaufen</button>
+            <h1>Lipstick 12</h1>
+            <p>From $699</p>
+            <img class="color1" src="colors.png" alt="color1" />
+            <br>
+            <button class="button1">Kaufen</button>
 
         </div>
         <div id="mini">
-            <img class="minibild" src="basis.png" alt="minibild"/>
+            <img class="minibild" src="basis.png" alt="minibild" />
             <p class="new">New</p>
             <h1>Lipstick 12 mini</h1>
             <p>From $399</p>
-            <img class="color2" src="colors.png" alt="color2"/>
+            <img class="color2" src="colors.png" alt="color2" />
             <br>
             <button class="button1">Kaufen</button>
         </div>
@@ -92,14 +117,14 @@
         <p>kleiner</p>
         <h1>16%</h1>
         <p>leichter</p>
-        <img class="gold-lipstick" src="gold.png" alt="gold"/>
+        <img class="gold-lipstick" src="gold.png" alt="gold" />
     </div>
     <br>
 
-     <!--Movie blue Lipstick-->
-     <div class="blueanmimation">
+    <!--Movie blue Lipstick-->
+    <div class="blueanmimation">
         <h1>Der nachhaltigste, farbintensivste <br> Bio Lippenstift der Welt.</h1>
-        <img class="blue-lipstick" src="blue.png" alt="blue"/>
+        <img class="blue-lipstick" src="blue.png" alt="blue" />
     </div>
     <br>
 
@@ -112,7 +137,7 @@
         <hr id="green-line">
         <p>4 x bessere Kompostierbarkeit</p>
         <button class="button3">Finde mehr heraus</button>
-        <img class="green-lipstick" src="green.png" alt="green"/>
+        <img class="green-lipstick" src="green.png" alt="green" />
     </div>
     <br>
 
@@ -120,7 +145,7 @@
     <div class="redanimation">
         <h1 id="rot-links">Aluminium-<br>Kanten</h1>
         <h1 id="rot-rechts">in Raumfahrt-<br>Qualität.</h1>
-        <img class="red-lipstick" src="red.png" alt="red"/>
+        <img class="red-lipstick" src="red.png" alt="red" />
     </div>
     <br>
     <!--Movie wasser Lipstick-->
@@ -128,7 +153,7 @@
         <h1 id="h2o-oben">H₂Okay.</h1>
         <hr id="h2o-line">
         <h1 id="h2o-unten">Noch besserer Schutz<br>gegen Flüssigkeiten</h1>
-        <img class="h2o-lipstick" src="h2o.png" alt="h2o"/>
+        <img class="h2o-lipstick" src="h2o.png" alt="h2o" />
     </div>
     <br>
 
@@ -137,7 +162,7 @@
     <div class="ende">
         <div id="Lieferung">
             <img src="lieferung.png" alt="Lieferung">
-            <h1>Schnelle, kostenlose<br> und kontaktlose Lieferung</h1> 
+            <h1>Schnelle, kostenlose<br> und kontaktlose Lieferung</h1>
             <p>Oder Kontaktlose Abholung<br> in einem Apple Store.</p>
             <button class="button2">Weitere Infos ></button>
         </div>
@@ -147,14 +172,14 @@
             <p>Monatliche Ratenzahlung<br> verfügbar.
             </p>
             <button class="button2">Weitere Infos ></button>
-            </div>
+        </div>
         <div id="Chatten">
             <img src="hilfe.png" alt="Chatten">
             <h1>Hilfe beim Einkauf</h1>
             <p>Hast du Fragen? Ruf unsere<br> Expert:innen an oder chatte<br> ganz einfach online.
             </p>
             <button class="button2">Jetzt chatten ></button>
-            </div>
+        </div>
         <div id="Hilfe">
             <img src="support.png" alt="Hilfe">
             <h1>Persönliche<br> Online Session</h1>
@@ -170,7 +195,7 @@
         <h1>Überzeugt?</h1>
         <button class="button1">Kaufen</button>
     </section>
-    
+
 
 
 
@@ -182,7 +207,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/BezierPlugin.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
     <script src="app.js"></script>
-        
+
 </body>
+
 </html>
