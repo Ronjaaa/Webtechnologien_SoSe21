@@ -7,30 +7,7 @@ body {
 
 /*Navigationsleiste Main*/
 
-nav[role="main"] {
-    position: relative;
-    background-color: black;
-    opacity: 0.8;
-    overflow: hidden;
-    height: 50px;
-    text-indent: 100px;
-}
-
-nav[role="main"] a {
-    color: white;
-    float: left;
-    text-align: center;
-    padding: 15px 0px;
-    text-decoration: none;
-    font-size: 15px;
-}
-
-nav[role="main"] a:hover {
-    color: gray;
-    font-weight: bolder;
-}
-
-nav[role="main"] img {
+.topnav img {
     width: 50px;
     padding: 11px 140px;
     float: left;
@@ -425,22 +402,46 @@ section .button1 {
     font-size: 20px;
 }
 
-/* Smartphone Darstellung */
+/* Style the navigation menu */
 
-@media (max-width: 599px) {
-    /* Style the navigation menu */
-    .topnav {
-        overflow: hidden;
-        background-color: black;
-        opacity: 0.8;
-        position: relative;
-        display: grid;
-        grid-gap: 10px;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    /* Hide the links inside the navigation menu (except for logo/home) */
-    .topnav #myLinks {
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    opacity: 0.8;
+    position: relative;
+}
+
+/* Style the active link (or home/logo) */
+
+.active {
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.topnav img {
+    width: 50px;
+    padding: 11px 280px;
+}
+
+@media screen and (max-width: 599px) {
+    .topnav a:not(:first-child) {
         display: none;
+    }
+    .topnav a.icon {
+        float: left;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        left: 0;
+        top: 0;
     }
     /* Style navigation menu links */
     .topnav a {
@@ -450,26 +451,46 @@ section .button1 {
         font-size: 17px;
         display: block;
     }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
     /* Style the hamburger menu */
     .topnav a.icon {
-        position: relative;
+        background: black;
         display: block;
+        position: absolute;
+        left: 0;
+        top: 8px;
+    }
+    .icon {
+        position: relative;
+        display: flex;
         cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        transition: all .5s ease-in-out;
     }
-    .menu-btn_burger, .menu-btn_burger::after {
-        width: 2em;
-        height: 3px;
+    .menu-btn_burger {
+        width: 20px;
+        height: 1px;
         background: whitesmoke;
-        border-radius: 5px;
-        transition: all .5s ease-in-out;
         transition: all .5s ease-in-out;
     }
-    .menu-btn_burger::after {
+    .menu-btn_burger::before, .menu-btn_burger::after {
         content: "";
         position: absolute;
+        width: 20px;
+        height: 1px;
+        background: whitesmoke;
+        transition: all .5s ease-in-out;
+    }
+    .menu-btn_burger::before {
+        transform: translateY(-10px);
     }
     .menu-btn_burger::after {
-        bottom: 6px;
+        transform: translateY(10px);
     }
     /*Animation*/
     .icon-open .icon {
@@ -481,97 +502,25 @@ section .button1 {
     .icon-open .menu-btn_burger::after {
         transform: rotate(-45deg) translate(35px, 35px);
     }
-    /* Style the active link (or home/logo) */
-    .active {
-        background-color: black;
-        color: white;
-        align-items: center;
-    }
-    .topnav img {
-        width: 50px;
-        padding: 11px 280px;
-    }
-    #cloud {
-        font-size: 20px;
-        color: whitesmoke;
-        text-shadow: 2px 2px 4px #000000;
-    }
 }
 
 /*Tablet Darstellung*/
 
 @media (min-width: 600px) {
-    /*Navigationsleiste Main*/
-    .topnav {
-        position: relative;
-        background-color: black;
-        opacity: 0.8;
-        overflow: hidden;
-        height: 50px;
-        text-indent: 100px;
-    }
     .topnav a {
         color: white;
-        float: left;
-        text-align: center;
-        padding: 15px 0px;
+        padding: 14px 16px;
         text-decoration: none;
-        font-size: 15px;
-    }
-    .topnav a:hover {
-        color: gray;
-        font-weight: bolder;
-    }
-    .topnav img {
-        width: 50px;
-        padding: 11px 140px;
-        float: left;
+        font-size: 17px;
+        display: inline;
     }
 }
 
 /*Desktop/Laptop Darstellung*/
 
 @media (min-width: 1024px) {
-    /*Navigationsleiste Main*/
-    .topnav {
-        position: relative;
-        background-color: black;
-        opacity: 0.8;
-        overflow: hidden;
-        height: 50px;
-        text-indent: 100px;
-    }
     .topnav a {
         color: white;
-        float: left;
-        text-align: center;
-        padding: 15px 0px;
         text-decoration: none;
-        font-size: 15px;
-    }
-    .topnav a:hover {
-        color: gray;
-        font-weight: bolder;
-    }
-    .topnav img {
-        width: 50px;
-        padding: 11px 140px;
-        float: left;
-    }
-    /*about*/
-    .about {
-        height: 100vh;
-        margin-left: auto;
-        margin-right: auto;
-        width: 1200px;
-        position: relative;
-        overflow: hidden;
-        padding-top: 10%;
-    }
-    .about h1 {
-        font-size: 64px;
-    }
-    .about p {
-        font-size: 32px;
-    }
+        font-size: 17px;
 }
