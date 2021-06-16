@@ -458,14 +458,14 @@ section .button1 {
         position: absolute;
         height: 300px;
         top: 50%;
-        left: 40%;
+        left: 20px;
     }
     #h2o-line {
         display: block;
         margin-top: 0.5em;
         margin-bottom: 0.5em;
         margin-left: 20px;
-        margin-right: 140px;
+        margin-right: 120px;
         border-width: 1px;
         color: #707070;
         background-color: #707070;
