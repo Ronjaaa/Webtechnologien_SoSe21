@@ -56,19 +56,6 @@ nav[role="sub"] a:hover {
     color: gray;
 }
 
-/*Button
-.button {
-    background-color: #0071e3;
-    border: none;
-    color: white;
-    padding: 3px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 13px;
-    border-radius: 25px;
-}*/
-
 /*Intro*/
 
 .intro {
@@ -305,49 +292,6 @@ nav[role="sub"] a:hover {
     text-align: right;
 }
 
-/*Video H2O*/
-
-.H2O {
-    height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-    position: relative;
-    overflow: hidden;
-}
-
-.H2O img {
-    position: absolute;
-    height: 700px;
-    top: 50%;
-    left: 20%;
-}
-
-#h2o-line {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: 100px;
-    margin-right: 750px;
-    border-width: 1px;
-    color: #707070;
-    background-color: #707070;
-    height: 2px;
-}
-
-#h2o-oben {
-    color: #707070;
-    font-size: 64px;
-    padding-top: 200px;
-    padding-left: 100px;
-}
-
-#h2o-unten {
-    color: #707070;
-    font-size: 32px;
-    padding-left: 100px;
-}
-
 /*Endbereich*/
 
 .ende {
@@ -497,10 +441,46 @@ section .button1 {
     .icon-open .menu-btn_burger::after {
         transform: rotate(-45deg) translate(35px, 35px);
     }
-
     .entscheidung {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    /*Video H2O*/
+    .H2O {
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        position: relative;
+        overflow: hidden;
+    }
+    .H2O img {
+        position: absolute;
+        height: 400px;
+        top: 50%;
+        left: 40%;
+    }
+    #h2o-line {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: 100px;
+        margin-right: 140px;
+        border-width: 1px;
+        color: #707070;
+        background-color: #707070;
+        height: 2px;
+    }
+    #h2o-oben {
+        color: #707070;
+        font-size: 64px;
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+    #h2o-unten {
+        color: #707070;
+        font-size: 32px;
+        padding-left: 100px;
     }
 }
 
@@ -514,15 +494,50 @@ section .button1 {
         font-size: 17px;
         display: inline;
     }
-
     .about {
         font-size: 25px;
     }
-
     .entscheidung {
         display: grid;
         grid-gap: 10px;
         grid-template-columns: repeat(2, 1fr);
+    }
+    /*Video H2O*/
+    .H2O {
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        position: relative;
+        overflow: hidden;
+    }
+    .H2O img {
+        position: absolute;
+        height: 700px;
+        top: 50%;
+        left: 20%;
+    }
+    #h2o-line {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: 100px;
+        margin-right: 750px;
+        border-width: 1px;
+        color: #707070;
+        background-color: #707070;
+        height: 2px;
+    }
+    #h2o-oben {
+        color: #707070;
+        font-size: 64px;
+        padding-top: 200px;
+        padding-left: 100px;
+    }
+    #h2o-unten {
+        color: #707070;
+        font-size: 32px;
+        padding-left: 100px;
     }
 }
 
@@ -534,14 +549,49 @@ section .button1 {
         text-decoration: none;
         font-size: 17px;
     }
-
     .about {
         font-size: 32px;
     }
-
     .entscheidung {
         display: grid;
         grid-gap: 10px;
         grid-template-columns: repeat(2, 1fr);
+    }
+    /*Video H2O*/
+    .H2O {
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        position: relative;
+        overflow: hidden;
+    }
+    .H2O img {
+        position: absolute;
+        height: 700px;
+        top: 50%;
+        left: 20%;
+    }
+    #h2o-line {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: 100px;
+        margin-right: 750px;
+        border-width: 1px;
+        color: #707070;
+        background-color: #707070;
+        height: 2px;
+    }
+    #h2o-oben {
+        color: #707070;
+        font-size: 64px;
+        padding-top: 200px;
+        padding-left: 100px;
+    }
+    #h2o-unten {
+        color: #707070;
+        font-size: 32px;
+        padding-left: 100px;
     }
 }
