@@ -123,12 +123,7 @@ nav[role="sub"] a:hover {
     color: #0071e3;
     background-color: transparent;
     padding-left: 40%;
-}
-
-.entscheidung {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
 }
 
 .entscheidung>div {
@@ -502,6 +497,11 @@ section .button1 {
     .icon-open .menu-btn_burger::after {
         transform: rotate(-45deg) translate(35px, 35px);
     }
+
+    .entscheidung {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 /*Tablet Darstellung*/
@@ -514,6 +514,16 @@ section .button1 {
         font-size: 17px;
         display: inline;
     }
+
+    .about {
+        font-size: 25px;
+    }
+
+    .entscheidung {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /*Desktop/Laptop Darstellung*/
@@ -523,4 +533,15 @@ section .button1 {
         color: white;
         text-decoration: none;
         font-size: 17px;
+    }
+
+    .about {
+        font-size: 32px;
+    }
+
+    .entscheidung {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
