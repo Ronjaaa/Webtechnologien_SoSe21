@@ -456,7 +456,7 @@ section .button1 {
     }
     .H2O img {
         position: absolute;
-        height: 400px;
+        height: 300px;
         top: 50%;
         left: 40%;
     }
@@ -464,7 +464,7 @@ section .button1 {
         display: block;
         margin-top: 0.5em;
         margin-bottom: 0.5em;
-        margin-left: 100px;
+        margin-left: 20px;
         margin-right: 140px;
         border-width: 1px;
         color: #707070;
@@ -475,12 +475,12 @@ section .button1 {
         color: #707070;
         font-size: 64px;
         padding-top: 100px;
-        padding-left: 100px;
+        padding-left: 20px;
     }
     #h2o-unten {
         color: #707070;
         font-size: 32px;
-        padding-left: 100px;
+        padding-left: 20px;
     }
 }
 
