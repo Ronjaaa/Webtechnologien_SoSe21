@@ -456,7 +456,7 @@ section .button1 {
     }
     .H2O img {
         position: absolute;
-        height: 300px;
+        height: 280px;
         top: 50%;
         left: 0px;
     }
@@ -465,7 +465,7 @@ section .button1 {
         margin-top: 0.5em;
         margin-bottom: 0.5em;
         margin-left: 20px;
-        margin-right: 100px;
+        margin-right: 80px;
         border-width: 1px;
         color: #707070;
         background-color: #707070;
