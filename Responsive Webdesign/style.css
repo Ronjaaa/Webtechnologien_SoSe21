@@ -56,34 +56,11 @@ nav[role="sub"] a:hover {
     color: gray;
 }
 
-/*Intro*/
-
-.intro {
-    height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-    position: relative;
-    overflow: hidden;
-}
-
-.intro h1 {
-    font-size: 120px;
-    text-align: center;
-    padding-top: 20vh;
-}
-
-#gold {
-    position: absolute;
-    height: 700px;
-    top: 50%;
-    left: 10%;
-}
-
 /*about*/
 
 .about {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 #price {
@@ -548,6 +525,16 @@ section .button1 {
         color: white;
         text-decoration: none;
         font-size: 17px;
+    }
+
+    /*Intro*/
+    #intro1 {
+        z-index: -1;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-bottom: 20px;
+        pointer-events: none;
     }
     .about {
         font-size: 32px;
