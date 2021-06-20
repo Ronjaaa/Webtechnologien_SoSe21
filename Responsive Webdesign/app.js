@@ -22,16 +22,6 @@ tween.add(
     })
 );
 
-//const blueanmimation = document.querySelector(".blueanmimation");
-//const video = blueanmimation.querySelector("video");
-//const text = blueanmimation.querySelector("h1");
-
-//End Section
-//const section = document.querySelector("section");
-//const end = section.querySelector("h1");
-
-
-
 //ScrollMagic
 const controller = new ScrollMagic.Controller();
 
@@ -193,42 +183,4 @@ let scene8 = new ScrollMagic.Scene({
 })
 .setTween(textAnimRed)
 .addTo(controller);
-
-
-//Scenes
-//let scene = new ScrollMagic.Scene({
-//    duration: 9000, //9sec
-//    trigerElement: blueanmimation,
-//    triggerHook: 0
-//}) 
-//.addIndicators()
-//.setPin(blueanmimation) //pint da video fest bis fertig
-//.addTo(controller);
-
-//Text Animation
-//const textAnim = TweenMax.fromTo(text, 3, {opacity: 0}, {opacity: 1});
-
-//let scene2 = new ScrollMagic.Scene({
-//    duration: 3000,
-//    triggerElement: blueanmimation,
-//    triggerHook: 0
-//})
-//.setTween(textAnim)
-//.addTo(controller);
-
-//Video Animation
-//let accelamount = 0.1;
-//let scrollpos = 0;
-//let delay = 0;
-
-//scene.on("update", e => {
-//    scrollpos = e.scrollPos / 1000;
- //   console.log(e);
-//});
-
-//setInterval(() => {
-//    delay += (scrollpos - delay) * accelamount;
-//    console.log(scrollpos, delay);
-//    video.currentTime = delay;
-//}, 33.3); 
 

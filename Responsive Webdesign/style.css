@@ -121,69 +121,6 @@ nav[role="sub"] a:hover {
     width: 130px;
 }
 
-/*Video gold*/
-
-.goldanimation {
-    background-color: #fcf6f0;
-    height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-    position: relative;
-    overflow: hidden;
-}
-
-.goldanimation h2 {
-    font-size: 64px;
-    text-align: center;
-    padding-top: 50px;
-}
-
-.goldanimation h1 {
-    color: orange;
-    font-size: 64px;
-    text-indent: 75%;
-}
-
-.goldanimation p {
-    color: black;
-    font-size: 32px;
-    text-indent: 75%;
-    line-height: 0%;
-}
-
-.gold-lipstick {
-    position: absolute;
-    height: 700px;
-    top: 50%;
-    left: 20%;
-}
-
-/*Video blue*/
-
-.blueanmimation {
-    background-color: #AECBD9;
-    height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-    position: relative;
-    overflow: hidden;
-}
-
-.blueanmimation h1 {
-    color: #0153A5;
-    font-size: 64px;
-    text-align: center;
-}
-
-.blueanmimation img {
-    position: relative;
-    height: 500px;
-    display: block;
-    margin: 0 auto;
-}
-
 /*Video grün*/
 
 .greenanimation {
@@ -275,32 +212,6 @@ nav[role="sub"] a:hover {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(4, 1fr);
-}
-
-.ende>div {
-    border-style: none;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 15px;
-    line-height: 150%;
-}
-
-.ende>div>h1 {
-    font-size: 18px;
-}
-
-.ende>div>button {
-    font-size: 15px;
-    border: none;
-    color: #0071e3;
-    background-color: transparent;
-}
-
-.ende>div>img {
-    border: 2px;
-    border-style: none;
-    max-width: 50px;
-    max-height: 50px;
 }
 
 section {
@@ -428,9 +339,62 @@ section .button1 {
         margin-left: auto;
         margin-right: auto;
         display: block;
-        width: 400px;
+        width: 500px;
         padding-bottom: 20px;
         pointer-events: none;
+    }
+    /*Video gold*/
+    .goldanimation {
+        background-color: #fcf6f0;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 599px;
+        position: relative;
+        overflow: hidden;
+    }
+    .goldanimation h2 {
+        font-size: 32px;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .goldanimation h1 {
+        color: orange;
+        font-size: 32px;
+        text-indent: 75%;
+    }
+    .goldanimation p {
+        color: black;
+        font-size: 26px;
+        text-indent: 75%;
+        line-height: 0%;
+    }
+    .gold-lipstick {
+        position: absolute;
+        height: 350px;
+        top: 50%;
+        left: 20%;
+    }
+    /*Video blue*/
+    .blueanmimation {
+        background-color: #AECBD9;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 599px;
+        position: relative;
+        overflow: hidden;
+    }
+    .blueanmimation h1 {
+        color: #0153A5;
+        font-size: 64px;
+        text-align: center;
+    }
+    .blueanmimation img {
+        position: relative;
+        height: 500px;
+        display: block;
+        margin: 0 auto;
     }
     /*Video H2O*/
     .H2O {
@@ -469,6 +433,52 @@ section .button1 {
         font-size: 28px;
         padding-left: 20px;
     }
+    /*Endbereich*/
+    .ende>div {
+        border-style: none;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 15px;
+        line-height: 150%;
+    }
+    .ende>div>h1 {
+        font-size: 18px;
+    }
+    .ende>div>button {
+        font-size: 15px;
+        border: none;
+        color: #0071e3;
+        background-color: transparent;
+    }
+    .ende>div>img {
+        border: 2px;
+        border-style: none;
+        max-width: 50px;
+        max-height: 50px;
+    }
+    /*Endbereich*/
+    .ende>div {
+        border-style: none;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 8px;
+        line-height: 150%;
+    }
+    .ende>div>h1 {
+        font-size: 10px;
+    }
+    .ende>div>button {
+        font-size: 8px;
+        border: none;
+        color: #0071e3;
+        background-color: transparent;
+    }
+    .ende>div>img {
+        border: 2px;
+        border-style: none;
+        max-width: 30px;
+        max-height: 30px;
+    }
 }
 
 /*Tablet Darstellung*/
@@ -498,6 +508,59 @@ section .button1 {
         grid-gap: 10px;
         grid-template-columns: repeat(2, 1fr);
     }
+    /*Video gold*/
+    .goldanimation {
+        background-color: #fcf6f0;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        position: relative;
+        overflow: hidden;
+    }
+    .goldanimation h2 {
+        font-size: 64px;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .goldanimation h1 {
+        color: orange;
+        font-size: 64px;
+        text-indent: 75%;
+    }
+    .goldanimation p {
+        color: black;
+        font-size: 32px;
+        text-indent: 75%;
+        line-height: 0%;
+    }
+    .gold-lipstick {
+        position: absolute;
+        height: 700px;
+        top: 50%;
+        left: 20%;
+    }
+    /*Video blue*/
+    .blueanmimation {
+        background-color: #AECBD9;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        position: relative;
+        overflow: hidden;
+    }
+    .blueanmimation h1 {
+        color: #0153A5;
+        font-size: 64px;
+        text-align: center;
+    }
+    .blueanmimation img {
+        position: relative;
+        height: 500px;
+        display: block;
+        margin: 0 auto;
+    }
     /*Video H2O*/
     .H2O {
         height: 100vh;
@@ -535,6 +598,29 @@ section .button1 {
         font-size: 32px;
         padding-left: 100px;
     }
+    /*Endbereich*/
+    .ende>div {
+        border-style: none;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 15px;
+        line-height: 150%;
+    }
+    .ende>div>h1 {
+        font-size: 18px;
+    }
+    .ende>div>button {
+        font-size: 15px;
+        border: none;
+        color: #0071e3;
+        background-color: transparent;
+    }
+    .ende>div>img {
+        border: 2px;
+        border-style: none;
+        max-width: 50px;
+        max-height: 50px;
+    }
 }
 
 /*Desktop/Laptop Darstellung*/
@@ -545,7 +631,6 @@ section .button1 {
         text-decoration: none;
         font-size: 17px;
     }
-
     /*Intro*/
     #intro1 {
         z-index: -1;
@@ -563,6 +648,59 @@ section .button1 {
         grid-gap: 10px;
         grid-template-columns: repeat(2, 1fr);
     }
+    /*Video gold*/
+    .goldanimation {
+        background-color: #fcf6f0;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        position: relative;
+        overflow: hidden;
+    }
+    .goldanimation h2 {
+        font-size: 64px;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .goldanimation h1 {
+        color: orange;
+        font-size: 64px;
+        text-indent: 75%;
+    }
+    .goldanimation p {
+        color: black;
+        font-size: 32px;
+        text-indent: 75%;
+        line-height: 0%;
+    }
+    .gold-lipstick {
+        position: absolute;
+        height: 700px;
+        top: 50%;
+        left: 20%;
+    }
+    /*Video blue*/
+    .blueanmimation {
+        background-color: #AECBD9;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        position: relative;
+        overflow: hidden;
+    }
+    .blueanmimation h1 {
+        color: #0153A5;
+        font-size: 64px;
+        text-align: center;
+    }
+    .blueanmimation img {
+        position: relative;
+        height: 500px;
+        display: block;
+        margin: 0 auto;
+    }
     /*Video H2O*/
     .H2O {
         height: 100vh;
@@ -599,5 +737,28 @@ section .button1 {
         color: #707070;
         font-size: 32px;
         padding-left: 100px;
+    }
+    /*Endbereich*/
+    .ende>div {
+        border-style: none;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 15px;
+        line-height: 150%;
+    }
+    .ende>div>h1 {
+        font-size: 18px;
+    }
+    .ende>div>button {
+        font-size: 15px;
+        border: none;
+        color: #0071e3;
+        background-color: transparent;
+    }
+    .ende>div>img {
+        border: 2px;
+        border-style: none;
+        max-width: 50px;
+        max-height: 50px;
     }
 }
