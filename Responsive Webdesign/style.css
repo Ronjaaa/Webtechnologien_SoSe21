@@ -246,10 +246,7 @@ section .button1 {
     align-items: center;
 }
 
-.topnav img {
-    width: 50px;
-    padding: 11px 280px;
-}
+
 
 @media screen and (max-width: 599px) {
     .topnav a:not(:first-child) {
@@ -329,6 +326,12 @@ section .button1 {
     .icon-open .menu-btn_burger::after {
         transform: rotate(-45deg) translate(35px, 35px);
     }
+    .topnav img {
+        width: 50px;
+        padding: 11px 80px;
+    }
+
+    /*Entschiedung*/
     .entscheidung {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -491,6 +494,10 @@ section .button1 {
         font-size: 17px;
         display: inline;
     }
+    .topnav img {
+        width: 50px;
+        padding: 11px 180px;
+    }
     /*Intro*/
     #intro1 {
         z-index: -1;
@@ -630,6 +637,10 @@ section .button1 {
         color: white;
         text-decoration: none;
         font-size: 17px;
+    }
+    .topnav img {
+        width: 50px;
+        padding: 11px 180px;
     }
     /*Intro*/
     #intro1 {
