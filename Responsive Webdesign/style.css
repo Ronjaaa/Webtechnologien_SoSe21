@@ -214,21 +214,6 @@ nav[role="sub"] a:hover {
     grid-template-columns: repeat(4, 1fr);
 }
 
-section {
-    height: 100vh;
-    color: black;
-}
-
-section h1 {
-    text-align: center;
-    font-size: 80px;
-}
-
-section .button1 {
-    margin-left: 49%;
-    font-size: 20px;
-}
-
 /* Style the navigation menu */
 
 .topnav {
@@ -245,8 +230,6 @@ section .button1 {
     color: white;
     align-items: center;
 }
-
-
 
 @media screen and (max-width: 599px) {
     .topnav a:not(:first-child) {
@@ -330,7 +313,6 @@ section .button1 {
         width: 50px;
         padding: 11px 80px;
     }
-
     /*Intro*/
     #intro1 {
         z-index: -1;
@@ -341,8 +323,8 @@ section .button1 {
         padding-bottom: 20px;
         pointer-events: none;
     }
-     /*Entschiedung*/
-     .entscheidung {
+    /*Entschiedung*/
+    .entscheidung {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -441,34 +423,12 @@ section .button1 {
         border-style: none;
         text-align: center;
         padding: 20px 0;
-        font-size: 15px;
-        line-height: 150%;
-    }
-    .ende>div>h1 {
-        font-size: 18px;
-    }
-    .ende>div>button {
-        font-size: 15px;
-        border: none;
-        color: #0071e3;
-        background-color: transparent;
-    }
-    .ende>div>img {
-        border: 2px;
-        border-style: none;
-        max-width: 50px;
-        max-height: 50px;
-    }
-    /*Endbereich*/
-    .ende>div {
-        border-style: none;
-        text-align: center;
-        padding: 20px 0;
         font-size: 8px;
-        line-height: 150%;
+        line-height: 100%;
     }
     .ende>div>h1 {
         font-size: 10px;
+        line-height: 120%;
     }
     .ende>div>button {
         font-size: 8px;
@@ -481,6 +441,19 @@ section .button1 {
         border-style: none;
         max-width: 30px;
         max-height: 30px;
+    }
+    /*Überzeugt*/
+    section {
+        height: 100vh;
+        color: black;
+    }
+    section h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+    section .button1 {
+        margin-left: 45%;
+        font-size: 20px;
     }
 }
 
@@ -628,6 +601,19 @@ section .button1 {
         max-width: 50px;
         max-height: 50px;
     }
+    /*Überzeugt*/
+    section {
+        height: 100vh;
+        color: black;
+    }
+    section h1 {
+        text-align: center;
+        font-size: 80px;
+    }
+    section .button1 {
+        margin-left: 49%;
+        font-size: 20px;
+    }
 }
 
 /*Desktop/Laptop Darstellung*/
@@ -771,5 +757,18 @@ section .button1 {
         border-style: none;
         max-width: 50px;
         max-height: 50px;
+    }
+    /*Überzeugt*/
+    section {
+        height: 100vh;
+        color: black;
+    }
+    section h1 {
+        text-align: center;
+        font-size: 80px;
+    }
+    section .button1 {
+        margin-left: 49%;
+        font-size: 20px;
     }
 }
