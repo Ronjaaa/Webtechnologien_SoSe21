@@ -27,8 +27,6 @@ nav[role="sub"] {
 /* Right-aligned section inside the top navigation */
 
 nav[role="sub"] a {
-    float: left;
-    text-align: center;
     padding: 14px 0px;
     text-decoration: none;
     font-size: 17px;
@@ -86,8 +84,10 @@ nav[role="sub"] a:hover {
     border: none;
     color: #0071e3;
     background-color: transparent;
-    padding-left: 40%;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .entscheidung>div {
@@ -119,91 +119,6 @@ nav[role="sub"] a:hover {
 
 .color2 {
     width: 130px;
-}
-
-/*Video grün*/
-
-.greenanimation {
-    background-color: #e2f4de;
-    height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-    position: relative;
-    overflow: hidden;
-}
-
-.greenanimation h1 {
-    color: green;
-    font-size: 64px;
-    padding-left: 100px;
-}
-
-.greenanimation p {
-    color: green;
-    font-size: 32px;
-    padding-left: 100px;
-}
-
-.greenanimation button {
-    border: 2px solid #4CAF50;
-    color: green;
-    background-color: transparent;
-    font-size: 15px;
-    border-radius: 25px;
-    padding: 5px 20px;
-    margin-left: 100px;
-}
-
-.green-lipstick {
-    position: absolute;
-    height: 700px;
-    top: 50%;
-    left: 50%;
-}
-
-#green-line {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: 100px;
-    margin-right: 550px;
-    border-width: 1px;
-    color: green;
-    background-color: green;
-    height: 2px;
-}
-
-/*Video rot*/
-
-.redanimation {
-    background-color: #F29D9C;
-    height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-    position: relative;
-    overflow: hidden;
-}
-
-.redanimation img {
-    float: inline-start;
-    padding-left: 40%;
-    width: 200px;
-}
-
-#rot-rechts {
-    color: red;
-    font-size: 64px;
-    padding-left: 700px;
-    text-align: left;
-}
-
-#rot-links {
-    color: red;
-    font-size: 64px;
-    padding-right: 800px;
-    text-align: right;
 }
 
 /*Endbereich*/
@@ -311,7 +226,7 @@ nav[role="sub"] a:hover {
     }
     .topnav img {
         width: 50px;
-        padding: 11px 80px;
+        padding: 11px auto;
     }
     /*Intro*/
     #intro1 {
@@ -334,12 +249,12 @@ nav[role="sub"] a:hover {
         height: 100vh;
         margin-left: auto;
         margin-right: auto;
-        width: 500px;
+        width: 350px;
         position: relative;
         overflow: hidden;
     }
     .goldanimation h2 {
-        font-size: 32px;
+        font-size: 35px;
         text-align: center;
         padding-top: 50px;
     }
@@ -356,9 +271,9 @@ nav[role="sub"] a:hover {
     }
     .gold-lipstick {
         position: absolute;
-        height: 350px;
+        height: 450px;
         top: 50%;
-        left: 20%;
+        left: -20%;
     }
     /*Video blue*/
     .blueanmimation {
@@ -366,13 +281,13 @@ nav[role="sub"] a:hover {
         height: 100vh;
         margin-left: auto;
         margin-right: auto;
-        width: 599px;
+        width: 350px;
         position: relative;
         overflow: hidden;
     }
     .blueanmimation h1 {
         color: #0153A5;
-        font-size: 64px;
+        font-size: 32px;
         text-align: center;
     }
     .blueanmimation img {
@@ -380,6 +295,80 @@ nav[role="sub"] a:hover {
         height: 500px;
         display: block;
         margin: 0 auto;
+    }
+    /*Video grün*/
+    .greenanimation {
+        background-color: #e2f4de;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        position: relative;
+        overflow: hidden;
+    }
+    .greenanimation h1 {
+        color: green;
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    .greenanimation p {
+        color: green;
+        font-size: 25px;
+        padding-left: 20px;
+    }
+    .greenanimation button {
+        border: 2px solid #4CAF50;
+        color: green;
+        background-color: transparent;
+        font-size: 15px;
+        border-radius: 25px;
+        padding: 5px 20px;
+        margin-left: 20px;
+    }
+    .green-lipstick {
+        position: absolute;
+        height: 500px;
+        top: 50%;
+        left: 20%;
+    }
+    #green-line {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: 20px;
+        margin-right: 60px;
+        border-width: 1px;
+        color: green;
+        background-color: green;
+        height: 2px;
+    }
+    /*Video rot*/
+    .redanimation {
+        background-color: #F29D9C;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        position: relative;
+        overflow: hidden;
+    }
+    .redanimation img {
+        float: inline-start;
+        padding-left: 20%;
+        padding-top: 50%;
+        width: 200px;
+    }
+    #rot-rechts {
+        color: red;
+        font-size: 32px;
+        padding-left: 20px;
+        text-align: left;
+    }
+    #rot-links {
+        color: red;
+        font-size: 32px;
+        padding-left: 20px;
+        text-align: left;
     }
     /*Video H2O*/
     .H2O {
@@ -452,7 +441,9 @@ nav[role="sub"] a:hover {
         font-size: 50px;
     }
     section .button1 {
-        margin-left: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
         font-size: 20px;
     }
 }
@@ -540,6 +531,79 @@ nav[role="sub"] a:hover {
         height: 500px;
         display: block;
         margin: 0 auto;
+    }
+    /*Video grün*/
+    .greenanimation {
+        background-color: #e2f4de;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        position: relative;
+        overflow: hidden;
+    }
+    .greenanimation h1 {
+        color: green;
+        font-size: 64px;
+        padding-left: 100px;
+    }
+    .greenanimation p {
+        color: green;
+        font-size: 32px;
+        padding-left: 100px;
+    }
+    .greenanimation button {
+        border: 2px solid #4CAF50;
+        color: green;
+        background-color: transparent;
+        font-size: 15px;
+        border-radius: 25px;
+        padding: 5px 20px;
+        margin-left: 100px;
+    }
+    .green-lipstick {
+        position: absolute;
+        height: 700px;
+        top: 50%;
+        left: 50%;
+    }
+    #green-line {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: 100px;
+        margin-right: 550px;
+        border-width: 1px;
+        color: green;
+        background-color: green;
+        height: 2px;
+    }
+    /*Video rot*/
+    .redanimation {
+        background-color: #F29D9C;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        position: relative;
+        overflow: hidden;
+    }
+    .redanimation img {
+        float: inline-start;
+        padding-left: 40%;
+        width: 200px;
+    }
+    #rot-rechts {
+        color: red;
+        font-size: 64px;
+        padding-left: 700px;
+        text-align: left;
+    }
+    #rot-links {
+        color: red;
+        font-size: 64px;
+        padding-right: 800px;
+        text-align: right;
     }
     /*Video H2O*/
     .H2O {
@@ -697,6 +761,79 @@ nav[role="sub"] a:hover {
         height: 500px;
         display: block;
         margin: 0 auto;
+    }
+    /*Video grün*/
+    .greenanimation {
+        background-color: #e2f4de;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        position: relative;
+        overflow: hidden;
+    }
+    .greenanimation h1 {
+        color: green;
+        font-size: 64px;
+        padding-left: 100px;
+    }
+    .greenanimation p {
+        color: green;
+        font-size: 32px;
+        padding-left: 100px;
+    }
+    .greenanimation button {
+        border: 2px solid #4CAF50;
+        color: green;
+        background-color: transparent;
+        font-size: 15px;
+        border-radius: 25px;
+        padding: 5px 20px;
+        margin-left: 100px;
+    }
+    .green-lipstick {
+        position: absolute;
+        height: 700px;
+        top: 50%;
+        left: 50%;
+    }
+    #green-line {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: 100px;
+        margin-right: 550px;
+        border-width: 1px;
+        color: green;
+        background-color: green;
+        height: 2px;
+    }
+    /*Video rot*/
+    .redanimation {
+        background-color: #F29D9C;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        position: relative;
+        overflow: hidden;
+    }
+    .redanimation img {
+        float: inline-start;
+        padding-left: 40%;
+        width: 200px;
+    }
+    #rot-rechts {
+        color: red;
+        font-size: 64px;
+        padding-left: 700px;
+        text-align: left;
+    }
+    #rot-links {
+        color: red;
+        font-size: 64px;
+        padding-right: 800px;
+        text-align: right;
     }
     /*Video H2O*/
     .H2O {

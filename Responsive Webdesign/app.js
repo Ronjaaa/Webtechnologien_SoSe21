@@ -82,19 +82,6 @@ const scene4 = new ScrollMagic.Scene({
 .setPin(".intro")
 .addTo(controller);
 
-//Text Animation Intro
-const introAnimation = document.querySelector(".intro");
-const textIntro = introAnimation.querySelector("h1");
-const textAnimIntro = TweenMax.fromTo(textIntro, 1, {opacity: 1}, {opacity: 0});
-
-let scene3 = new ScrollMagic.Scene({
-    duration: 1000,
-    triggerElement: ".intro",
-    triggerHook: 0
-})
-.setTween(textAnimIntro)
-.addTo(controller);
-
 //Green Animation
 const flightPathGreen = {
     curviness: 0,
