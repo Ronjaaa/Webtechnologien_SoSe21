@@ -337,7 +337,7 @@ section .button1 {
         margin-left: auto;
         margin-right: auto;
         display: block;
-        width: 500px;
+        width: 400px;
         padding-bottom: 20px;
         pointer-events: none;
     }
