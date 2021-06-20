@@ -422,6 +422,16 @@ section .button1 {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    /*Intro*/
+    #intro1 {
+        z-index: -1;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 400px;
+        padding-bottom: 20px;
+        pointer-events: none;
+    }
     /*Video H2O*/
     .H2O {
         height: 100vh;
@@ -470,6 +480,15 @@ section .button1 {
         text-decoration: none;
         font-size: 17px;
         display: inline;
+    }
+    /*Intro*/
+    #intro1 {
+        z-index: -1;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-bottom: 20px;
+        pointer-events: none;
     }
     .about {
         font-size: 25px;
