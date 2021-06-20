@@ -15,18 +15,22 @@ body {
 
 /*Navigationsleiste Sub*/
 
-nav[role="sub"] {
+.sub {
     position: sticky;
     background-color: white;
     opacity: 0.8;
     overflow: hidden;
-    height: 50px;
-    text-indent: 150px;
+    display: grid;
+    grid-gap: auto;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* Right-aligned section inside the top navigation */
 
-nav[role="sub"] a {
+.sub a {
     padding: 14px 0px;
     text-decoration: none;
     font-size: 17px;
@@ -45,7 +49,7 @@ nav[role="sub"] a {
     border-radius: 25px;
 }
 
-nav[role="sub"] a:hover {
+.sub a:hover {
     color: gray;
     font-weight: bolder;
 }
@@ -616,7 +620,7 @@ nav[role="sub"] a:hover {
     }
     .H2O img {
         position: absolute;
-        height: 700px;
+        width: 700px;
         top: 50%;
         left: 20%;
     }
@@ -634,7 +638,7 @@ nav[role="sub"] a:hover {
     #h2o-oben {
         color: #707070;
         font-size: 64px;
-        padding-top: 200px;
+        padding-top: 100px;
         padding-left: 100px;
     }
     #h2o-unten {
@@ -758,7 +762,7 @@ nav[role="sub"] a:hover {
     }
     .blueanmimation img {
         position: relative;
-        height: 500px;
+        height: 550px;
         display: block;
         margin: 0 auto;
     }
