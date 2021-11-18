@@ -1,0 +1,11 @@
+div {
+    display: block;
+    align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      height: 100vh;
+}
+
+img {
+    border-radius: 50%;
+}
